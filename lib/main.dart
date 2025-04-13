@@ -1,5 +1,5 @@
 import 'package:google_fonts/google_fonts.dart';
-import 'package:ai_chatbot/screens/home_screen.dart';
+import 'package:chat_ai/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {

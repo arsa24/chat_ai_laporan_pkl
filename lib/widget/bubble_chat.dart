@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:iconsax_plus/iconsax_plus.dart';
 
 class BubbleChat extends StatefulWidget {
   const BubbleChat({
@@ -81,7 +80,7 @@ class _BubbleChatState extends State<BubbleChat> {
                                 });
                               },
                               child: Icon(
-                                IconsaxPlusLinear.like_1,
+                                Icons.thumb_up,
                                 size: 20,
                                 color:
                                     isLike ? Colors.white : Color(0xff777777),
@@ -99,7 +98,7 @@ class _BubbleChatState extends State<BubbleChat> {
                                 });
                               },
                               child: Icon(
-                                IconsaxPlusLinear.dislike,
+                                Icons.thumb_down,
                                 size: 20,
                                 color:
                                     isDisLike
@@ -117,7 +116,7 @@ class _BubbleChatState extends State<BubbleChat> {
                                 );
                               },
                               child: Icon(
-                                IconsaxPlusLinear.copy,
+                                Icons.copy,
                                 size: 20,
                                 color:
                                     isCopy ? Colors.white : Color(0xff777777),

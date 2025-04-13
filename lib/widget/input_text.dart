@@ -1,6 +1,5 @@
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
-import 'package:iconsax_plus/iconsax_plus.dart';
 
 Widget inputText({
   required GestureTapCallback func,
@@ -18,12 +17,11 @@ Widget inputText({
           height: 52,
           child: TextField(
             controller: controller,
-            style: GoogleFonts.kodchasan(color: Colors.white, fontWeight: FontWeight.w600),
+            style: GoogleFonts.kodchasan(
+              color: Colors.white,
+              fontWeight: FontWeight.w600,
+            ),
             decoration: InputDecoration(
-              prefixIcon: Container(
-                decoration: BoxDecoration(),
-                child: Icon(IconsaxPlusLinear.link_1, color: Colors.white),
-              ),
               filled: true,
               hintText: "Ask everything",
               hintStyle: GoogleFonts.kodchasan(color: Color(0xff8A8A8A)),
@@ -49,7 +47,7 @@ Widget inputText({
           ),
           width: 50,
           height: 50,
-          child: Icon(IconsaxPlusLinear.send_1, color: Colors.white),
+          child: Icon(Icons.send, color: Colors.white),
         ),
       ),
     ],

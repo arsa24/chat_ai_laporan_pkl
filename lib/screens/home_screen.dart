@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:ai_chatbot/widget/input_text.dart';
-import 'package:ai_chatbot/widget/bubble_chat.dart';
-import 'package:ai_chatbot/services/gemini.dart';
+import 'package:chat_ai/widget/input_text.dart';
+import 'package:chat_ai/widget/bubble_chat.dart';
+import 'package:chat_ai/services/gemini.dart';
 import 'package:gap/gap.dart';
 
 class HomeScreen extends StatefulWidget {
